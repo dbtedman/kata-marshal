@@ -18,6 +18,22 @@ nvm use && make
 
 ## Design
 
+### Concepts
+
+#### Extraction and Ingestion
+
+Direct interaction with external systems via their apis will be supported, along with flat files that could either be manually extracted or ingested.
+
+#### Intermediate Representation
+
+To support marshalling data between multiple different systems, an intermediate representation of the data will be created. Both import and export parts of the tool will interact with the 3rd party system and this intermediate representation and not other 3rd party systems.
+
+### Domain Entities
+
+> 🚧 Placeholder
+
+### Domain Use Cases
+
 > 🚧 Placeholder
 
 ## License
