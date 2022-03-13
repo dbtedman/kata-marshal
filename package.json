@@ -3,6 +3,7 @@
     "_prettier": "prettier './**/*.{md,yml,yaml,json,ts,js,tsx,jsx}'",
     "format": "sort-package-json && pnpm run _prettier -- --write && deno fmt ./src/",
     "lint": "sort-package-json --check && pnpm run _prettier -- --check && deno lint ./src/",
+    "run": "deno run ./src/main.ts",
     "test": "deno test ./src/"
   },
   "devDependencies": {

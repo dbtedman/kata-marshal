@@ -16,13 +16,15 @@ Tool for marshalling data between systems.
 ## Getting Started
 
 ```shell
-nvm use && make
+nvm use && make && make run
 ```
 
 ## Verification
 
-### Linting
+### Linting and Formatting
 
+-   [Deno Formatter](https://deno.land/manual/tools/formatter)
+-   [Deno Linter](https://deno.land/manual/tools/linter)
 -   [Prettier](https://prettier.io)
 
 ```shell

@@ -13,3 +13,6 @@ format:
 
 test:
 	@pnpm run test
+
+run:
+	@pnpm run run
