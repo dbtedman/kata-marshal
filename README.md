@@ -61,11 +61,15 @@ To support marshalling data between multiple different systems, an intermediate 
 
 ### Domain
 
+#### [Article](./src/internal/domain/article)
+
+_Placeholder_
+
 #### [Author](./src/internal/domain/author)
 
 _Placeholder_
 
-#### [Post](./src/internal/domain/post)
+#### [Comment](./src/internal/domain/comment)
 
 _Placeholder_
 
