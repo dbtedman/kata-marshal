@@ -38,6 +38,14 @@ These rules can then be automatically applied:
 make format
 ```
 
+### Unit Test
+
+-   [Deno Testing](https://deno.land/manual/testing)
+
+```shell
+make test
+```
+
 ## Design
 
 ### Concepts
@@ -50,15 +58,31 @@ Direct interaction with external systems via their apis will be supported, along
 
 To support marshalling data between multiple different systems, an intermediate representation of the data will be created. Both import and export parts of the tool will interact with the 3rd party system and this intermediate representation and not other 3rd party systems.
 
-### Domain Entities
+### Domain
+
+#### [Author](./src/internal/domain/author)
 
 _Placeholder_
 
-### Domain Use Cases
+#### [Post](./src/internal/domain/post)
+
+_Placeholder_
+
+#### [Tag](./src/internal/domain/tag)
 
 _Placeholder_
 
 ### Gateways
+
+#### [Hugo](./src/internal/gateway/hugo)
+
+_Placeholder_
+
+#### [RSS](./src/internal/gateway/rss)
+
+_Placeholder_
+
+#### [WordPress](./src/internal/gateway/wordpress)
 
 _Placeholder_
 
@@ -105,6 +129,10 @@ _Placeholder_
 #### [A10:2021-Server-Side Request Forgery](https://owasp.org/Top10/A10_2021-Server-Side_Request_Forgery_%28SSRF%29/)
 
 _Placeholder_
+
+## References
+
+-   2022 May 28: [Deno Configuration file](https://deno.land/manual/getting_started/configuration_file)
 
 ## License
 

@@ -6,13 +6,13 @@ install:
 	@pnpm install
 
 lint:
-	@pnpm run lint && deno lint ./src/
+	@pnpm run lint && deno lint
 
 format:
-	@pnpm run format && deno fmt ./src/
+	@pnpm run format && deno fmt
 
 test:
 	@deno test ./src/
 
 run:
-	@deno run ./src/main.ts
+	@deno run ./src/cmd/marshal/marshal.ts

@@ -1,0 +1,15 @@
+{
+    "lint": {
+        "files": {
+            "include": ["src/"]
+        }
+    },
+    "fmt": {
+        "files": {
+            "include": ["src/"]
+        },
+        "options": {
+            "indentWidth": 4
+        }
+    }
+}
