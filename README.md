@@ -133,6 +133,7 @@ _Placeholder_
 ## References
 
 -   2022 May 28: [Deno Configuration file](https://deno.land/manual/getting_started/configuration_file)
+-   2022 May 28: [Deno Managing dependencies](https://deno.land/manual/examples/manage_dependencies)
 
 ## License
 
