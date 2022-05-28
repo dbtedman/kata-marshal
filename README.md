@@ -12,6 +12,7 @@ Tool for marshalling data between systems.
 -   [Getting Started](#getting-started)
 -   [Verification](#verification)
 -   [Design](#design)
+-   [References](#references)
 -   [License](#license)
 
 ## Getting Started
