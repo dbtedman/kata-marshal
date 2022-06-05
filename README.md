@@ -1,6 +1,7 @@
-# [Kata](https://github.com/dbtedman/kata) // [Marshal](https://github.com/dbtedman/kata-marshal)
+# [Marshal](https://github.com/dbtedman/kata-marshal)
 
-> ⚠️ WARNING: Not production ready code.
+> **⚠️ WARNING:** Not production ready code, instead a [Code Kata](https://github.com/dbtedman#code-kata) intended to
+> hone my programming skills through practice and repetition.
 
 [![CI GitHub Pipeline](https://img.shields.io/github/workflow/status/dbtedman/kata-marshal/ci?style=for-the-badge&logo=github&label=ci)](https://github.com/dbtedman/kata-marshal/actions/workflows/ci.yml)
 [![sast workflow status](https://img.shields.io/github/workflow/status/dbtedman/kata-marshal/sast?style=for-the-badge&logo=github&label=sast)](https://github.com/dbtedman/kata-marshal/actions/workflows/sast.yml)
