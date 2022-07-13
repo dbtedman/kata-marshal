@@ -7,6 +7,7 @@
 [![sast workflow status](https://img.shields.io/github/workflow/status/dbtedman/kata-marshal/sast?style=for-the-badge&logo=github&label=sast)](https://github.com/dbtedman/kata-marshal/actions/workflows/sast.yml)
 ![language: typescript](https://img.shields.io/badge/language-typescript-blue.svg?style=for-the-badge)
 ![platform: deno](https://img.shields.io/badge/platform-deno-blue.svg?style=for-the-badge)
+[![MIT License](https://img.shields.io/github/license/dbtedman/kata-marshal?color=orange&style=for-the-badge)](https://github.com/dbtedman/kata-marshal/blob/main/LICENSE.md)
 
 Tool for marshalling data between systems.
 
