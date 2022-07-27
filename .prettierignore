@@ -4,6 +4,3 @@
 
 # Don't touch IDE configuraiton
 /.idea/
-
-# Don't touch deno src
-/src/

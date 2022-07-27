@@ -25,37 +25,8 @@ jobs:
               with:
                   node-version-file: ".nvmrc"
                   cache: "pnpm"
-            - uses: "denoland/setup-deno@v1"
-              with:
-                  deno-version: "1.19.3"
             - uses: "snyk/actions/setup@master"
             - run: "make install"
             - run: "snyk test --all-projects"
               env:
                   SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
-
-    codeql:
-        runs-on: "ubuntu-latest"
-
-        permissions:
-            actions: read
-            contents: read
-            security-events: write
-
-        steps:
-            - uses: "actions/checkout@v3"
-            - uses: "github/codeql-action/init@v2"
-              with:
-                  languages: "javascript"
-            - uses: "pnpm/action-setup@v2.0.1"
-              with:
-                  version: "latest"
-            - uses: "actions/setup-node@v2"
-              with:
-                  node-version-file: ".nvmrc"
-                  cache: "pnpm"
-            - uses: "denoland/setup-deno@v1"
-              with:
-                  deno-version: "1.19.3"
-            - run: "make install"
-            - uses: "github/codeql-action/analyze@v2"

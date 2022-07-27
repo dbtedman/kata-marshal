@@ -1,18 +1,12 @@
 .DEFAULT_GOAL := all
 
-all: install lint test
+all: install lint
 
 install:
 	@pnpm install
 
 lint:
-	@pnpm run lint && deno lint
+	@pnpm run lint
 
 format:
-	@pnpm run format && deno fmt
-
-test:
-	@deno test ./src/
-
-run:
-	@deno run ./src/cmd/marshal/marshal.ts
+	@pnpm run format

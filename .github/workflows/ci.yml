@@ -23,8 +23,5 @@ jobs:
               with:
                   node-version-file: ".nvmrc"
                   cache: "pnpm"
-            - uses: "denoland/setup-deno@v1"
-              with:
-                  deno-version: "1.19.3"
             - run: "make install"
             - run: "make lint"
